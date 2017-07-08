@@ -19,6 +19,20 @@ h1 {
     text-align: center;
 }
 
+ul {
+    margin-top: 40px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+li {
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 6px;
+    background-color: #fcf8e3;
+    font-size: 15px;
+}
 
 #footer {
     position: absolute;
