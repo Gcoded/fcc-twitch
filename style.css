@@ -22,21 +22,39 @@ h1 {
 }
 
 .btn {
+    font-size: 16px;
     background-color: #6441a4;
     color: #fff;
+    min-width: 24%;
+    border: 1px solid #1F2041;
 }
 
 ul {
-    border: 2px solid #000;
+    border: 2px solid #1F2041;
     border-radius: 14px;
     margin-top: 10px;
-    padding: 5px;
+    padding: 30px;
     list-style-type: none;
 }
 
-li {
-    padding: 8px;
-    font-size: 15px;
+a:link, a:visited {
+    color: #6441a4;
+    text-decoration: none;
+}
+
+h3 {
+    display: inline;
+}
+
+p {
+    font-size: 18px;
+}
+
+img {
+    max-height: 50px;
+    max-width: 50px;
+    border-radius: 14px;
+    margin-right: 10px;
 }
 
 #footer {
