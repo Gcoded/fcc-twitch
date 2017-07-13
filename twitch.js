@@ -50,7 +50,8 @@ userNames.forEach(function(name) {
 
 });
 
-var allUsers = document.getElementsByTagName('LI');  //returns HTMLCollection, not an array
+var allUsers = document.getElementsByTagName('LI');  //returns an HTMLCollection, which does not have
+                                                    // same methods as an array
 
 function showOnline() {
   for(var i = 0; i < allUsers.length; i++) {
@@ -81,5 +82,3 @@ function showAll() {
     allUsers[i].style.display = 'list-item';
   }
 }
-
-document.getElementById('footer').style.position = 'relative';
